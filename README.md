@@ -10,6 +10,8 @@ Please If you have any suggest feel free to contributing.
 
 This module have some dependencies.
 
+///////////////////////////////////////////////////////////////
+
 Olá Pessoal,
 
 Esse modulo é bem simples, porém bem díficil de encontrar para joomla.
@@ -20,15 +22,15 @@ Por favor se tiverem sugestões de melhorias fiquem a vontade para contribuir.
 
 Esse modulo possuí dependências.
 
-###How to Install / Como instalar
+###How to Install //// Como instalar
 
-1. Download or get the path. Baixe o arquivo ou pegue o caminho da pasta do git.
-2. 
-2. There is a zip file read to be installed. Existe um arquivo zipado já pronto para uso.
-3. 
-3. The name of the module will be Banner Dynamic Bootstrap. O nome do modulo instalado será Banner Dynamic Bootstrap
+1. Download or get the path. //// Baixe o arquivo ou pegue o caminho da pasta do git.
 
-### Dependencies to load and install / Dependências do Modulo
+2. There is a zip file read to be installed. //// Existe um arquivo zipado já pronto para uso.
+
+3. The name of the module will be Banner Dynamic Bootstrap. //// O nome do modulo instalado será Banner Dynamic Bootstrap
+
+### Dependencies to load and install //// Dependências do Modulo
 
 1 - jQuery.
 
@@ -36,7 +38,7 @@ Esse modulo possuí dependências.
 
 3 - jQuery Mobile.
 
-### Dependencies to load and developer / Dependências para desenvolver 
+### Dependencies to load and developer //// Dependências para desenvolver 
 
 1 -Nodejs.
 
@@ -63,12 +65,12 @@ Todos os codigos estão comentados com as principais explicações.
 
 ```
 
-### Support / Contributing / Contribuição
+### Support / Contributing //// Contribuição
 
-Feel free to share and contribuing / Fiquem a vontade para contribuir e compartilhar
+Feel free to share and contribuing //// Fiquem a vontade para contribuir e compartilhar
 
-Enjoy! Aproveitem
+Enjoy!  //// Aproveitem
 
 
 ### Release History
-See the [CHANGELOG](CHANGELOG).
+See the (CHANGELOG).
