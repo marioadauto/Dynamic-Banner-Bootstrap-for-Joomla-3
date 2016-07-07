@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Banner Dynamic Bootstrap</name>
+    <author>Mario Eduardo</author>
+    <creationDate>May 2016</creationDate>
+    <authorEmail>contato@marioeduardo.com</authorEmail>
+    <authorUrl>http://www.linkedin.com/in/marioadauto</authorUrl>
+    <version>1.0.0</version>
+    <description>Module Boostrap Banner</description>
+    <files>
+        <filename>mod_bannerBoostrapjoomla.xml</filename>
+        <filename module="mod_bannerBoostrapjoomla">mod_bannerBoostrapjoomla.php</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>js/mod_bannerBoostrapjoomla.min.js</filename>
+        <filename>js/default.min.js</filename>  
+        <filename>js/jquery.mobile.custom.min.js</filename>        
+        <filename>css/default.min.css</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic" addfieldpath="/administrator/components/com_banners/models/fields">
+              <field
+              name="quantidade"
+              type="text"
+              default="5"
+              class="validate-numeric"
+              filter="integer"
+              label="Quantidade de banners"
+              description="Quantidade de banners" />
+
+              <field
+                name="cid"
+                type="bannerclient"
+                label="Cliente"
+                description="Cliente" />
+
+              <field
+                name="catid"
+                type="category"
+                extension="com_banners"
+                label="Categoria"
+                multiple="true" size="5"
+                default=""
+                description="Categoria do banner" >
+                <option value="">Todas as categorias</option>
+              </field>
+
+              <field
+              name="ordering"
+              type="list"
+              default="0"
+              label="Order"
+              description="Ordem dos banners">
+              <option
+                value="0">Por ordem</option>
+              <option
+                value="random">Randomizado</option>
+              </field>
+              
+                <field name="backgroundcolor" type="color" default="#f2f2f2"  label="Cor do Background"
+                description="Insira a Cor do Background" />
+
+
+
+            </fieldset>
+
+           </fields>
+    </config>
+</extension>
