@@ -74,3 +74,5 @@ Enjoy!  //// Aproveitem
 
 ### Release History
 See the (CHANGELOG).
+
+Mario Silva - contato@marioeduardo.com
