@@ -23,25 +23,35 @@ Esse modulo possuí dependências.
 ###How to Install / Como instalar
 
 1. Download or get the path. Baixe o arquivo ou pegue o caminho da pasta do git.
+2. 
 2. There is a zip file read to be installed. Existe um arquivo zipado já pronto para uso.
+3. 
 3. The name of the module will be Banner Dynamic Bootstrap. O nome do modulo instalado será Banner Dynamic Bootstrap
 
 ### Dependencies to load and install / Dependências do Modulo
 
 1 - jQuery.
+
 2 - Bootstrap.
+
 3 - jQuery Mobile.
 
 ### Dependencies to load and developer / Dependências para desenvolver 
 
 1 -Nodejs.
+
 2 -Gruntjs.
 
 npm install grunt-contrib-uglify --save-dev
+
 npm install grunt-contrib-concat --save-dev
+
 npm install grunt-contrib-cssmin --save-dev
+
 npm install grunt-contrib-watch --save-dev
+
 npm install grunt-contrib-less --save-dev
+
 npm install grunt-contrib-compress --save-dev
 
 ### Documentation
