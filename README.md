@@ -28,14 +28,14 @@ Esse modulo possuí dependências.
 
 ### Dependencies to load and install / Dependências do Modulo
 
-1 - jQuery
-2 - Bootstrap
-3 - jQuery Mobile
+1 - jQuery.
+2 - Bootstrap.
+3 - jQuery Mobile.
 
 ### Dependencies to load and developer / Dependências para desenvolver 
 
-1 -Nodejs
-2 -Gruntjs
+1 -Nodejs.
+2 -Gruntjs.
 
 npm install grunt-contrib-uglify --save-dev
 npm install grunt-contrib-concat --save-dev
